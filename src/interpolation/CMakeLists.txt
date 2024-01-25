@@ -1,4 +1,2 @@
-
-add_library( interpolation SHARED interpolation.f90 )
-
-add_dependencies( interpolation service )
+add_fortran_library(interpolation interpolation.f90)
+add_dependencies(interpolation service)

@@ -1,2 +1,1 @@
-
-add_library( service SHARED service.f90 )
+add_fortran_library(service service.f90)

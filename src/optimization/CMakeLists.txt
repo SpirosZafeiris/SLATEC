@@ -1,4 +1,2 @@
-
-add_library( optimization SHARED optimization.f90 )
-
-target_link_libraries( optimization service )
+add_fortran_library(liboptimization optimization.f90)
+target_link_libraries(liboptimization service)
