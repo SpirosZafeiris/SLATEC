@@ -1,1 +1,1 @@
-add_fortran_library(service service.f90)
+add_library(service service.f90)

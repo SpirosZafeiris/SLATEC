@@ -1,2 +1,2 @@
-add_fortran_library(liboptimization optimization.f90)
+add_library(liboptimization optimization.f90)
 target_link_libraries(liboptimization service)
